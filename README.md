@@ -11,10 +11,9 @@ A full-featured blogging platform built with **React** and **Appwrite**, designe
 *   🔐 User Authentication (Register, Login, Logout)
 *   📝 Create, Read, Update, Delete blog posts
 *   📸 Image uploads with Appwrite storage
-*   🧠 Rich text editor (optional: use something like `react-quill`)
+*   🧠 Rich text editor
 *   🔍 Search and filter posts
-*   🗂️ Category tagging
-*   💡 Responsive UI (optional: styled with Tailwind CSS or another framework)
+*   💡 Responsive UI
 
 🧱 Tech Stack
 -------------
@@ -29,7 +28,6 @@ A full-featured blogging platform built with **React** and **Appwrite**, designe
 - **Appwrite Auth** – User registration, login, and session management
 - **Appwrite Database** – Document-based storage for blog posts, comments, etc.
 - **Appwrite Storage** – File uploads for blog images and media
-- **Appwrite Functions** *(optional)* – Custom server-side logic
 
 📦 Getting Started
 ------------------
@@ -78,15 +76,6 @@ Visit [http://localhost:5173](http://localhost:5173) 🚀
     npm run dev       # start development server
     npm run build     # build for production
     npm run preview   # preview production build
-
-🤝 Contributing
----------------
-
-1.  Fork the repo
-2.  Create a new branch (`git checkout -b feature-name`)
-3.  Commit your changes
-4.  Push to the branch
-5.  Open a Pull Request
 
 📄 License
 ----------
