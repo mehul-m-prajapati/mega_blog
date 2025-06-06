@@ -1,5 +1,3 @@
- Mega Blog App - README
-
 📝 Mega Blog App
 ================
 
@@ -21,33 +19,25 @@ A full-featured blogging platform built with **React** and **Appwrite**, designe
 🧱 Tech Stack
 -------------
 
-Tech
+### Frontend
+- **React** – UI library for building interactive interfaces
+- **Vite** – Lightning-fast frontend build tool
+- **JavaScript** – Core language (or TypeScript, if you're using it)
+- **Tailwind CSS** *(optional)* – Utility-first CSS framework
 
-Usage
-
-React
-
-Frontend UI
-
-Vite
-
-Lightning-fast dev
-
-Appwrite
-
-Backend-as-a-service (Auth, DB, Storage)
-
-CSS / Tailwind
-
-Styling (optional)
+### Backend (via Appwrite)
+- **Appwrite Auth** – User registration, login, and session management
+- **Appwrite Database** – Document-based storage for blog posts, comments, etc.
+- **Appwrite Storage** – File uploads for blog images and media
+- **Appwrite Functions** *(optional)* – Custom server-side logic
 
 📦 Getting Started
 ------------------
 
 ### 1\. Clone the repo
 
-    git clone https://github.com/yourusername/mega-blog-app.git
-    cd mega-blog-app
+    git clone https://github.com/mehul-m-prajapati/mega_blog.git
+    cd mega_blog
 
 
 ### 2\. Install dependencies
