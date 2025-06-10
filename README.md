@@ -21,8 +21,8 @@ A full-featured blogging platform built with **React** and **Appwrite**, designe
 ### Frontend
 - **React** – UI library for building interactive interfaces
 - **Vite** – Lightning-fast frontend build tool
-- **JavaScript** – Core language (or TypeScript, if you're using it)
-- **Tailwind CSS** *(optional)* – Utility-first CSS framework
+- **JavaScript** – Core language
+- **Tailwind CSS** – Utility-first CSS framework
 
 ### Backend (via Appwrite)
 - **Appwrite Auth** – User registration, login, and session management

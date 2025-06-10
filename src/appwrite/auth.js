@@ -44,7 +44,7 @@ export class AuthService {
 
     async logout () {
         try {
-            const result = await account.deleteSessions();
+            const result = await this.account.deleteSessions();
 
             return result;
         } catch (error) {
@@ -54,7 +54,7 @@ export class AuthService {
 
     async getCurrentUser() {
         try {
-            const user = this.account.get();
+            const user = await this.account.get();
 
             return user;
         } catch (error) {
