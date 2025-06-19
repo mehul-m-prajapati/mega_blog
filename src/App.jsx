@@ -25,12 +25,11 @@ function App() {
 
   return !loading ?
         (
-            <div className='min-h-screen flex justify-center bg-gray-800'>
+            <div className='min-h-screen flex justify-center bg-gray-300'>
                 <div className='block'>
                     <Header />
                         <main>
-                            main content
-                            {/*<Outlet /> */}
+                            <Outlet />
                         </main>
                     <Footer />
                 </div>

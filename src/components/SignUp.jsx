@@ -4,7 +4,7 @@ import { login } from "../store/authSlice";
 import {Button, Input, Logo} from "./"
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
-
+import { useState } from "react";
 
 function SignUp() {
 
@@ -62,8 +62,7 @@ function SignUp() {
                         <Input label="Password: " type="password" placeholder="Enter your password" {...register("password", {
                             required: true
                         })}  />
-                        <Button type="submit" className="w-full">
-                            Create Account
+                        <Button type="submit" className="w-full" childrenText="Create Account">
                         </Button>
                     </div>
                 </form>
